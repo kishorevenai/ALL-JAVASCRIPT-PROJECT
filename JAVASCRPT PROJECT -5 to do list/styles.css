@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    background: url(./images/clay-banks-_wkd7XBRfU4-unsplash.jpg);
+    background-position: 50% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+#add-task-container{
+    width: 350px;
+    padding: 20px 10px;    
+    background: #fff;    
+    border-radius:20px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+input{
+    flex-grow: 1;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+    font-family: monospace;
+}
+#add-task{    
+    flex-grow: 1;
+    font-size:1.5rem;
+    padding: 5px;
+    background-color: #fff;
+    color: green;
+    border: 1px solid green;
+    border-radius:10px;
+}
+#add-task:hover{
+    transition: 0.3s;
+    background-color: green;
+    color: white;
+}
+/*STYLING FOR TASK WHICH GET ADDED TO TO-DO LIST*/
+
+.task{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;    
+}
+.task li{
+    overflow: auto;    
+    height: auto;
+    width: 150px;
+    list-style-type: none;
+    flex-grow: 1;
+    padding: 5px;    
+    font-size: 1.3rem;
+    margin: 10px;
+}
+.task button{
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.task .checkTask{
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+.task .checkTask:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+.task .deleteTask{
+    color: red;
+    border: solid 2px red;    
+}
+.task .deleteTask:hover{
+    transition: 0.3s;
+    background-color: red;
+    color: white;
+}

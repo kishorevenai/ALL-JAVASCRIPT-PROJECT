@@ -1,0 +1,40 @@
+*{
+    font-family: monospace;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(208, 255, 0, 0.425),rgba(23, 0, 128, 0.349));
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 50px black;
+    border-radius: 20px;
+    margin: 5px;
+}
+.input{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;    
+    box-shadow: 0 50px 100px;    
+}
+.btn:hover{
+    transition: 0.3s;
+    opacity: 0.9;
+}
+#score{
+    font-size: 20px;    
+}
